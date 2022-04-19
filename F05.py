@@ -45,10 +45,15 @@ def ubah_game(game):
             for i in range(length(data_game[0])):
                 for j in range(length(data_game)):
                     if id_game == data_game[i][0]:
-                        print(data_game[i][j], end =' ')
+                        print(data_game[i][j])
         else:
             print("ID game invalid!")
             id_game = input("Masukkan ID game: ")
+            nama_game = input("Masukkan nama game: ")
+            kategori = input("Masukkan kategori: ")
+            tahun_rilis = input("Masukkan tahun rilis: ")
+            harga = input("Masukkan harga: ")
+
 
     print("Game diupdate!")
     return
