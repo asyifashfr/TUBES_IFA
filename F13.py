@@ -21,7 +21,7 @@ def riwayat_user(user_id, data_riwayat):
 
 
 def riwayat(data_riwayat):
-    user_id = input("id: ")
+    user_id = input("Masukan username: ")
 
     if length(data_riwayat) == 0:
         print("Maaf, kamu tidak ada riwayat pembelian game. ketik perintah beli_game untuk membeli")
