@@ -32,5 +32,3 @@ def riwayat(data_riwayat):
                 if user_id == data_riwayat[i][3]:
                     print(data_riwayat[i][j], end=' ')
     return
-
-print(riwayat(data_riwayat))
